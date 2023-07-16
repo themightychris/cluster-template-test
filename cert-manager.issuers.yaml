@@ -4,8 +4,7 @@ metadata:
   name: letsencrypt-staging
 spec:
   acme:
-    # TODO: replace with valid email
-    email: hello+letsencrypt@example.org
+    email: themightychris@gmail.com
     server: https://acme-staging-v02.api.letsencrypt.org/directory
     privateKeySecretRef:
       name: letsencrypt-staging
@@ -22,8 +21,7 @@ metadata:
   name: letsencrypt-prod
 spec:
   acme:
-    # TODO: replace with valid email
-    email: hello+letsencrypt@example.org
+    email: themightychris@gmail.com
     server: https://acme-v02.api.letsencrypt.org/directory
     privateKeySecretRef:
       name: letsencrypt-prod
